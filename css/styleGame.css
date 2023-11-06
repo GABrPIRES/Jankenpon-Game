@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    background-color: #b3b5ba;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+.div-placar {
+    background-color: #F5F8FF;
+}
+
+.placar {
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.placar h2 {
+    border: 1px solid black;
+    font-size: 30px;
+    margin: 0;
+    background-color: blue;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.placar p {
+    font-size: 30px;
+    border: 1px solid black;
+    margin: 0;
+    background-color: white;
+}
+
+.align {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    background-color: #F5F8FF;
+}
+
+.winner-table {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 100px;
+    max-width: 70%;
+    border: 1px solid #000;
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+
+.winner-table div h2,
+.winner-table div p {
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.winner-table div h2 {
+    background-color: #f0f0f0;
+}
+
+.close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 3px;
+    height: 20px;
+    line-height: 15px;
+    width: 20px;
+    cursor: pointer;
+    border-top-right-radius: 20px;
+}
+
+.close-button:hover {
+    background-color: red;
+}
+
+.player-options img,
+.enemy-options img {
+    max-width: 100px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.player-options img:hover,
+.enemy-options img:hover {
+    opacity: 1;
+}
+
+.player-options,
+.enemy-options {
+    width: 50%;
+}
+
+.player-options h3,
+.enemy-options h3 {
+    color: black;
+    font-size: 25px;
+}
+
+footer {
+    background-color: #1A202C;
+    text-align: center;
+    color: white;
+}
+
+.name-footer {
+    padding: 5px;
+}
+
+.years-footer {
+    padding: 10px;
+}
+
+.email-footer {
+    padding: 5px;
+}
