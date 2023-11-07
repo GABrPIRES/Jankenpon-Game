@@ -4,11 +4,32 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, sans-serif;
+}
+
 .title {
     text-align: center;
     background-color: #b3b5ba;
     padding: 20px;
+    color: black;
     border-bottom: 1px solid black;
+}
+
+h1 {
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
 }
 
 .div-placar {
@@ -44,6 +65,7 @@
     text-align: center;
     justify-content: center;
     padding-top: 30px;
+    padding-bottom: 60px;
     background-color: #F5F8FF;
 }
 
@@ -119,6 +141,7 @@ footer {
     background-color: #1A202C;
     text-align: center;
     color: white;
+    padding: 10px;
 }
 
 .name-footer {

@@ -10,6 +10,17 @@ body {
     background-color: #F5F8FF;
 }
 
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+    /* Adicione qualquer estilo para o conteúdo principal aqui */
+}
+
 .title {
     text-align: center;
     background-color: #b3b5ba;
@@ -37,6 +48,13 @@ h1 {
     padding: 10px;
 }
 
+
+.container h2 {
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+}
+
 input[type="text"] {
     width: 100%;
     padding: 10px;
@@ -56,4 +74,23 @@ button[type=submit] {
 
 button[type=submit]:hover {
     background-color: #0056b3;
+}
+
+footer {
+    background-color: #1A202C;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.name-footer {
+    padding: 5px;
+}
+
+.years-footer {
+    padding: 10px;
+}
+
+.email-footer {
+    padding: 5px;
 }

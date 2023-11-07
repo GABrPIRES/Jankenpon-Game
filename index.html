@@ -13,18 +13,39 @@
 
 <body>
 
-    <header>
-        <h1 class="title">Rock, Paper, Scissors!<br>じゃんけんぽん(Jankenpon)</h1>
-    </header>
+    <div class="wrapper">
+        <div class="content">
+            <header>
+                <h1 class="title">Rock, Paper, Scissors!<br>じゃんけんぽん(Jankenpon)</h1>
+            </header>
 
-    <div class="container">
-        <h1>ENTER YOUR NAME</h1>
-        <form id="name-form" action="game.html" method="get">
-            <input type="text" name="menu-name-player" placeholder="Nickname">
-            <button class="button-play" type="submit">
-                <p>Play</p>
-            </button>
-        </form>
+            <div class="container">
+                <h2>ENTER YOUR NAME</h2>
+                <form id="name-form" action="game.html" method="get">
+                    <input required type="text" name="menu-name-player" placeholder="Nickname">
+                    <button class="button-play" type="submit">
+                        <p>Play</p>
+                    </button>
+                </form>
+            </div>
+
+        </div>
+
+        <footer>
+            <div class="name-footer">Created by Gabriel R. Pires</div>
+            <div class="years-footer">© 2022-2023 Gabriel Pires</div>
+            <div>
+                <a style="text-decoration: none;" href="in/gabriel-ribeiro-pires-3a8807207">
+                    <img style="width: 30px;" src="images/logotipo-do-linkedin.png" alt="">
+                </a>
+                <a style="text-decoration: none;" href="https://github.com/GABrPIRES">
+                    <img style="width: 30px;" src="images/placa-do-github.png" alt="">
+                </a>
+            </div>
+            <div class="email-footer">
+                <p>gabrielribeiropires@outlook.com</p>
+            </div>
+        </footer>
     </div>
 
     <script src="script.js"></script>
